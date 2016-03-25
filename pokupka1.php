@@ -13,13 +13,16 @@
   body { background: url(zx.jpg); }
 </style>
     <body>
-	
-<form>
+	<?php
+    include 'header.php';
+     ?>
+
+    <form method="post" action="register.php">
 
 <p align="center"> <font size="7" face="Elephant">Замовлення товару</font></p>
-<label for = "name9"><font size="5">Ціна за одиницю </font> 
+<label for = "name9"><font size="5">Ціна за одиницю </font> </label>
 <input type="text" id="name9" size="5"><br>
-<label for = "name10"><font size="5">Кількість </font>
+<label for = "name10"><font size="5">Кількість </font></label>
 <input type="text" id="name10" size="5"><br>
 
 
